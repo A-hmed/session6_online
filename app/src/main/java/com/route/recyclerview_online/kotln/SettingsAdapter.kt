@@ -17,8 +17,6 @@ class SettingsAdapter(var items: ArrayList<SettingsItem>): RecyclerView.Adapter<
       inflate(R.layout.item_settings, parent, false)
        return ViewHolder(view)
     }
-   //todo:
-    // 1- onBindas dad
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items.get(position)
