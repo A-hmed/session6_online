@@ -5,7 +5,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="12dp"
-    android:background="@color/purple_500"
     >
 
     <ImageView
@@ -24,7 +23,8 @@
         app:layout_constraintStart_toEndOf="@id/item_settings_icon"
         app:layout_constraintTop_toTopOf="@id/item_settings_icon"
         tools:text="Network and internet"
-        android:textSize="24sp"
+        android:textSize="18sp"
+        android:textColor="@color/purple_500"
         android:textStyle="bold"
         />
     <TextView
