@@ -24,8 +24,7 @@
         app:layout_constraintStart_toEndOf="@id/item_settings_icon"
         app:layout_constraintTop_toTopOf="@id/item_settings_icon"
         tools:text="Network and internet"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textSize="28sp"
         />
     <TextView
         android:id="@+id/item_settings_subtitle"
